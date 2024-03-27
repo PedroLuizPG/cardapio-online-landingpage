@@ -208,8 +208,42 @@ body {
   font-size: 1.25rem;
 }
 
-@media (max-width: 1700px) {
-  .container {
-    padding-left: 10%;
-  }
+@media (max-width: 1360px) {
+
+.cabecalho {
+  width: 200px;
+}
+.cabecalho__menu {
+  
+  gap: 20px;
+  padding-top: 20px;
+  font-size: 1.5rem;
+}
+.cabecalho__menu__links {
+  gap: 30px;
+  padding-top: 20px;
+  font-size: 1rem;
+}
+.container{
+  /* max-width: 1360px;  */
+  width: 100%; /* Garante que o contêiner ocupe toda a largura disponível */
+  padding-left: 10%;
+  box-sizing: border-box;
+  
+}
+
+.quadrado__1,
+.quadrado__2,
+.quadrado__3,
+.quadrado__4 {
+  width: 490px; 
+  
+}
+
+.grupo__1,
+.grupo__2 {
+  gap: 50px; 
+}
+
+
 }
